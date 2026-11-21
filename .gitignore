@@ -1,0 +1,32 @@
+# ⛔ 実在の個人情報を置かないための保険。この行を外さない
+data/
+*.csv
+*.xlsx
+
+# 環境変数・鍵
+.env
+.env.*
+!.env.example
+
+# 依存パッケージ
+node_modules/
+.venv/
+
+# ビルド・キャッシュ
+# dist/ はビルド出力ではなく、編集元の静的ファイルとして追跡する
+build/
+.next/
+out/
+.cache/
+*.tsbuildinfo
+__pycache__/
+*.py[cod]
+
+# エディタ・OS
+.DS_Store
+.vscode/
+.idea/
+
+# 作業用の引き継ぎ資料・ローカルバックアップ
+/HANDOFF.md
+/backups/
