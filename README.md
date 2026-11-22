@@ -1,8 +1,8 @@
 [![Project Status: Concept – This repository is intended as a limited demo of a proposed career-support service.](https://www.repostatus.org/badges/latest/concept.svg)](https://www.repostatus.org/#concept)
 
-# X-Therapist LP
+# Therapist Bridge LP
 
-理学療法士（PT）・作業療法士（OT）向けのキャリア支援構想「X-Therapist（エックスセラピスト）」の、
+理学療法士（PT）・作業療法士（OT）向けのキャリア支援構想「Therapist Bridge（セラピストブリッジ）」の、
 相談につながる導線を確認するためのランディングページ（LP）モックです。
 サービス名は仮称で、サービスサイトの別モックは含みません。
 
@@ -61,7 +61,7 @@ node --check dist/assets/app.js
 |---|---|
 | `dist/index.html` | LPの原稿・構造・相談ダイアログ |
 | `dist/assets/styles.css` | 共通スタイルとレスポンシブ設定 |
-| `dist/assets/brand.css` | X-Therapistの配色・レイアウト |
+| `dist/assets/brand.css` | Therapist Bridgeの配色・レイアウト |
 | `dist/assets/app.js` | ダイアログ・入力検証・プレビュー・再編集 |
 | `dist/assets/*.png` | 臨床2点とビジネス1点の生成画像 |
 
@@ -81,8 +81,8 @@ JavaScriptの構文、参照ファイル、HTML内の参照先を検査してい
 
 ## 共有・公開
 
-一時共有にはOpenAIのSitesを使います。共有先は
-[X-Therapist LP](https://x-therapist-lp.nakatama225.chatgpt.site) です。
+一時共有にはOpenAIのSitesを使います。名称の変更に合わせてSiteを作り直すため、
+共有先のURLは作り直した後に記載します。
 URLを知っている人が閲覧できる設定で、配信対象は `dist/` のLPファイルです。
 GitHubリポジトリは公開しています。
 
@@ -97,7 +97,7 @@ GitHub Pagesは未設定です。将来使う場合の配信ブランチと手�
 READMEや運用資料はサイトに含まれません。`.nojekyll` により静的ファイルをそのまま配信します。
 
 Pagesの設定は「Deploy from a branch」→ `gh-pages` → `/ (root)` を使います。
-有効化後のURLは `https://nakatama225.github.io/x-therapist-lp/` です。
+有効化後のURLは `https://nakatama225.github.io/therapist-bridge-lp/` です。
 
 Pagesを使う場合の更新は、検査・コミット・mainへの反映後に、リポジトリのルートで実行します。
 GitHubへのpush権限を持つGit認証が必要です。
