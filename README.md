@@ -81,8 +81,8 @@ JavaScriptの構文、参照ファイル、HTML内の参照先を検査してい
 
 ## 共有・公開
 
-一時共有にはOpenAIのSitesを使います。名称の変更に合わせてSiteを作り直すため、
-共有先のURLは作り直した後に記載します。
+一時共有にはOpenAIのSitesを使います。共有先は
+[Therapist Bridge LP](https://therapist-bridge-lp.nakatama225.chatgpt.site) です。
 URLを知っている人が閲覧できる設定で、配信対象は `dist/` のLPファイルです。
 GitHubリポジトリは公開しています。
 
